@@ -1,0 +1,5 @@
+alias he="cd /data/projects/highereducation"
+alias pr="hub pull-request -i"
+alias dots="cd ~/dotfiles-local"
+alias pc="cd /data/projects/personal"
+alias v="vim"

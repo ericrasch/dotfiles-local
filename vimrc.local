@@ -1,0 +1,52 @@
+let mapleader = ","
+set background=dark
+set complete=.,b,u,]
+set foldmethod=syntax
+set hlsearch
+set ignorecase
+set lazyredraw
+set matchtime=0
+set nofoldenable
+set noshowmode
+set nowrap
+set scrolloff=0
+set synmaxcol=250
+set smartcase
+set ttimeout
+set undodir=$HOME/.undodir
+set undofile
+set wildmenu
+set wildmode=longest:full,full
+set winwidth=84
+set winheight=10
+set winminheight=5
+set wrap
+
+let g:ale_emit_conflict_warnings = 0
+
+set redrawtime=1000
+
+set textwidth=999
+
+let g:one_allow_italics = 1
+
+let base16colorspace=256
+" colorscheme base16-default-dark
+
+match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
+
+set colorcolumn=120
+
+highlight Pmenu ctermbg=75 guibg=#2c323c
+highlight PmenuSel ctermbg=17 guibg=#3c4452
+
+map <Leader>n :NERDTreeToggle<CR>
+nnoremap <cr> :nohlsearch<cr>
+map <Leader>co :TComment<CR>
+
+autocmd! BufWritePost * Neomake
+
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.jsx
+
+hi Normal ctermbg=none
+hi NonText ctermbg=none

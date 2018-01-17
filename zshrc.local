@@ -10,3 +10,11 @@ setopt no_auto_remove_slash
 
 # uncomment if you're doing minikube shit
 # eval $(minikube docker-env)
+
+# NVM / AVN
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+
+# Customize to your needs...
+eval "$(rbenv init -)"

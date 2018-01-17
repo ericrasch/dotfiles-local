@@ -90,6 +90,9 @@
 [branch]
   autosetupmerge = true
 
+[diff]
+  algorithm = patience
+
 [push]
   default = upstream
 

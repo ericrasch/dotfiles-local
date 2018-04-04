@@ -18,3 +18,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Customize to your needs...
 eval "$(rbenv init -)"
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+

@@ -1,9 +1,11 @@
 source ~/dotfiles-local/antigen.zsh
+export NVM_AUTO_USE=true
 
 antigen use oh-my-zsh
 antigen bundle vi-mode
 antigen bundle ssh-agent
 antigen theme robbyrussell
+antigen bundle lukechilds/zsh-nvm
 antigen apply
 
 setopt no_auto_remove_slash
@@ -12,12 +14,12 @@ setopt no_auto_remove_slash
 # eval $(minikube docker-env)
 
 # NVM / AVN
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
 
 # Customize to your needs...
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin

@@ -16,8 +16,34 @@ A place to keep track of my personal dotfile configs
 git clone git@github.com:daveashworth/dotfiles-local.git
 ```
 
-#### Install `zsh` (if it doesn't exist) and change shell to `zsh`
-3. Install `oh-my-zsh` ([open link to repo](https://github.com/robbyrussell/oh-my-zsh))
-4. `git clone git://github.com/thoughtbot/dotfiles.git ~/dotfiles`
-5. Install `rcm` ([open link to repo](https://github.com/thoughtbot/rcm))
-6. `env RCRC=$HOME/dotfiles/rcrc rcup`
+#### Install `zsh`
+
+```
+brew install zsh
+```
+
+#### Install `oh-my-zsh`
+
+> [open link to repo](https://github.com/robbyrussell/oh-my-zsh)
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+#### Clone the thoughtbot dotfiles repo
+
+```
+git clone git://github.com/thoughtbot/dotfiles.git ~/dotfiles`
+```
+
+#### Install `rcm`
+
+> [open link to repo](https://github.com/thoughtbot/rcm)
+
+
+#### Run rcup to symlink your local dotfiles
+
+```
+env RCRC=$HOME/dotfiles/rcrc rcup`
+```
+

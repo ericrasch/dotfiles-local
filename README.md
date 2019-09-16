@@ -94,10 +94,9 @@ Copy the ssh key to your clipboard and add to github:
 Go to `Preferences > General > Preferences` and check "Load preferences from a
 custom folder or URL. Set the folder (or url) where you want to load from.
 
-This should be the exported file here: [https://github.com/daveashworth/dotfiles-local/blob/master/iterm/com.googlecode.iterm2.plist](Preferences file)
+This should be the exported file here: [Preferences file](https://github.com/daveashworth/dotfiles-local/blob/master/iterm/com.googlecode.iterm2.plist)
 
 For colors, go to `Preferences > Profiles > Colors` and click on the "Color
 Presets..." dropdown. Choose import and pick the exported color file here:
-[https://github.com/daveashworth/dotfiles-local/blob/master/iterm/duotone-dark-space.itermcolors](Color
-theme)
+[Color theme file](https://github.com/daveashworth/dotfiles-local/blob/master/iterm/duotone-dark-space.itermcolors)
 

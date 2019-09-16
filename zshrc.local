@@ -4,6 +4,7 @@ export NVM_AUTO_USE=true
 antigen use oh-my-zsh
 antigen bundle vi-mode
 antigen bundle ssh-agent
+antigen bundle z
 antigen theme robbyrussell
 antigen bundle lukechilds/zsh-nvm
 antigen apply

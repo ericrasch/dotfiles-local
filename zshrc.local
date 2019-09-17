@@ -2,6 +2,7 @@ source ~/dotfiles-local/antigen.zsh
 export NVM_AUTO_USE=true
 
 antigen use oh-my-zsh
+antigen bundle zsh-users/zsh-completions
 antigen bundle vi-mode
 antigen bundle ssh-agent
 antigen bundle z

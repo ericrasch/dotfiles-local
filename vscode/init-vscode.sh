@@ -1,4 +1,4 @@
-#!/usr/bin/evn bash
+#!/usr/bin/env bash
 set -e
 
 cp ./settings.json "${HOME}/Library/Application Support/Code/User/"

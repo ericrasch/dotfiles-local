@@ -1,0 +1,106 @@
+{
+    "editor.fontFamily": "DejaVu Sans Mono",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 10,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": true,
+    "editor.quickSuggestionsDelay": 100,
+    "editor.tabCompletion": true,
+    "editor.tabSize": 2,
+    "extensions.autoUpdate": true,
+    "files.autoSave": "onWindowChange",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "search.quickOpen.includeSymbols": true,
+    "terminal.integrated.fontFamily": "Monaco",
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "file-icons",
+    "workbench.colorCustomizations": {
+      "editor.selectionBackground": "#F78AE0",
+      "editor.selectionHighlightBackground": "#F78AE0",
+      "editorUnnecessaryCode.border": "#f0f",
+    },
+    "bracketPairColorizer.consecutivePairColors": [
+      "()",
+      "[]",
+      "{}",
+      [
+        "#fe7734",
+        "#bebeef",
+        "#8686cb",
+      ],
+      "Red"
+    ],
+    "polychrome.dark.primary": "#d6e9ff",
+    "polychrome.dark.accent": "#34febb",
+    "polychrome.dark.background": "#1B272E",
+    "workbench.editor.showTabs": true,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Ayu Mirage",
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.semi": false,
+    "prettier.trailingComma": "all",
+    "prettier.arrowParens": "always",
+    "prettier.printWidth": 120,
+    "liveshare.featureSet": "insiders",
+    "peacock.favoriteColors": [
+      {
+        "name": "Angular Red",
+        "value": "#b52e31"
+      },
+      {
+        "name": "Auth0 Orange",
+        "value": "#eb5424"
+      },
+      {
+        "name": "Azure Blue",
+        "value": "#007fff"
+      },
+      {
+        "name": "C# Purple",
+        "value": "#68217A"
+      },
+      {
+        "name": "Gatsby Purple",
+        "value": "#639"
+      },
+      {
+        "name": "Go Cyan",
+        "value": "#5dc9e2"
+      },
+      {
+        "name": "Java Blue-Gray",
+        "value": "#557c9b"
+      },
+      {
+        "name": "JavaScript Yellow",
+        "value": "#f9e64f"
+      },
+      {
+        "name": "Mandalorian Blue",
+        "value": "#1857a4"
+      },
+      {
+        "name": "Node Green",
+        "value": "#215732"
+      },
+      {
+        "name": "React Blue",
+        "value": "#00b3e6"
+      },
+      {
+        "name": "Something Different",
+        "value": "#832561"
+      },
+      {
+        "name": "Vue Green",
+        "value": "#42b883"
+      }
+    ]
+  }

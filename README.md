@@ -100,3 +100,13 @@ For colors, go to `Preferences > Profiles > Colors` and click on the "Color
 Presets..." dropdown. Choose import and pick the exported color file here:
 [Color theme file](https://github.com/daveashworth/dotfiles-local/blob/master/iterm/duotone-dark-space.itermcolors)
 
+#### Import VS Code settings and install extensions
+
+This assumes VS Code has already been installed on the machine, and in the location `${HOME}/Library/Application Support/Code`. If that's not the case, the location will need to be updated in `/vscode/init-vscode.sh`.
+
+Change directories to the `/vscode` directory under this repo and run:
+```zsh
+./init-vscode.sh
+```
+
+This will copy the `settings.json` file to `${HOME}/Library/Application Support/Code/User`, and will attempt to install the extensions listed in the `extensions.list` file.

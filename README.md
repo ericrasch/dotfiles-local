@@ -1,5 +1,16 @@
 # dotfiles-local
-A place to keep track of my personal dotfile configs
+A place to keep track of my personal dotfile configs and setting up a new machine
+
+
+### Summary / Overview
+1. Install Homebrew
+2. Add a new SSH key from the new machine to Github
+3. Clone this repo to your home directory
+4. Install `zsh` and `oh-my-zsh`, making `zsh` the default shell
+5. Clone the thoughtbot dotfiles repo
+6. Install `rcm` and run `rcup` to symlink dotfiles
+7. Import iTerm preferences and color theme
+8. Install VS Code and import preferences and install extensions
 
 
 ### Steps to move my environment to another machine
@@ -103,6 +114,8 @@ Presets..." dropdown. Choose import and pick the exported color file here:
 #### Import VS Code settings and install extensions
 
 This assumes VS Code has already been installed on the machine, and in the location `${HOME}/Library/Application Support/Code`. If that's not the case, the location will need to be updated in `/vscode/init-vscode.sh`.
+
+This also assumes you've installed the `code` shell command in your environment. If not, type `command` + `shift` + `P` inside VS Code and type `shell`. Click on the option to install the `code` shell command.
 
 Change directories to the `/vscode` directory under this repo and run:
 ```zsh

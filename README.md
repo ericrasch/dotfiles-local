@@ -81,7 +81,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 #### Clone the thoughtbot dotfiles repo
 
 ```zsh
-git clone git://github.com/thoughtbot/dotfiles.git ~/dotfiles`
+git clone git://github.com/thoughtbot/dotfiles.git ~/dotfiles
 ```
 
 #### Install `rcm`

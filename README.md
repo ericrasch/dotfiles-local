@@ -61,7 +61,7 @@ pbcopy < ~/.ssh/id_rsa.pub
 #### Clone this repo to the *home directory* on the new machine
 
 ```zsh
-git clone git@github.com:daveashworth/dotfiles-local.git
+git clone git@github.com:ericrasch/dotfiles-local.git
 ```
 
 #### Install `zsh`
@@ -105,11 +105,11 @@ env RCRC=$HOME/dotfiles/rcrc rcup
 Go to `Preferences > General > Preferences` and check "Load preferences from a
 custom folder or URL". Set the folder (or url) where you want to load from.
 
-This should be the exported file here: [Preferences file](https://github.com/daveashworth/dotfiles-local/blob/master/iterm/com.googlecode.iterm2.plist)
+This should be the exported file here: [Preferences file](https://github.com/ericrasch/dotfiles-local/blob/master/iterm/com.googlecode.iterm2.plist)
 
 For colors, go to `Preferences > Profiles > Colors` and click on the "Color
 Presets..." dropdown. Choose import and pick the exported color file here:
-[Color theme file](https://github.com/daveashworth/dotfiles-local/blob/master/iterm/duotone-dark-space.itermcolors)
+[Color theme file](https://github.com/ericrasch/dotfiles-local/blob/master/iterm/duotone-dark-space.itermcolors)
 
 #### Import VS Code settings and install extensions
 
